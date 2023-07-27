@@ -92,7 +92,7 @@ justify-content: space-evenly;
 }
 
 .list li a:hover{
-	color:orange;
+	color:orangered;
 }
 .multi2 a{
 	display:inline-block;
@@ -120,12 +120,18 @@ justify-content: space-evenly;
 	/* opacity:0.8; */
 /* } */
 .list li a.color{
-	color:orange;
+	color:orangered;
 }
 .content{
 	font-size:20px;
 	color:white;
-	padding:20px;
+	padding:30px 0;
+}
+.content h1{
+	padding-bottom:20px;
+}
+.content p{
+	padding-bottom:20px;
 }
 .center{
 	display:flex;
@@ -138,6 +144,7 @@ justify-content: space-evenly;
 .abouts h1{
 	color:#0d294c;
 }
+
 .abouts h4::after{
 	content:"";
 	width:10%;
@@ -147,17 +154,21 @@ justify-content: space-evenly;
 	top:-1%;
 	}
 .llist{
+	padding:10px 0;
 	list-style:none;
 	line-height:1.5;
 
 	}
 .llist li i{
-	color:orange;
+	color:orangered;
 }
 .abouts{
 	padding-bottom:30px;
 	padding-top:30px;
 	}
+.abouts h4{
+	padding-bottom:10px;
+}
 .abtfl{
 	display:flex;
 	font-size:20px;
@@ -166,14 +177,15 @@ justify-content: space-evenly;
 	display:inline-block;
 	padding:8px 24px;
 	background-color:white;
-	color:orange;
+	color:orangered;
 	font-size:17px;
-	border:2px solid orange;
+	border:2px solid orangered;
 	border-radius:5px;
 	text-decoration:none;
+	margin-top:10px;
 	}
 .multi3 a:hover{
-	background-color:orange;
+	background-color:orangered;
 	color:white;
 }
 .abtfl p{
@@ -184,7 +196,7 @@ justify-content: space-evenly;
 	font-size:20px;
 	}
 .icn{
-	color:orange;
+	color:orangered;
 	bottom:20px;
 	left:20px;
 	padding-top:7px;
@@ -207,25 +219,50 @@ justify-content: space-evenly;
 .details{
 	margin-top:20px;
 	/* height:150px; */
-    box-shadow:5px 10px 18px #888888;
+    box-shadow:0px 0px 5px #ccc;
     padding:30px;
     width:100%;	
 }
 #vcontent{
 	margin-top:40px;
-	height:90vh;
 	background-color:#80bfd91c;
 	
 }
+.vimg{
+	position:relative;
+}
 .vimg img{
 	width:100%;
-	display:flex;
-	align-items:left;
-	justify-content:left;
-	height:90vh;
+	background-position:center;
+	background-size:cover;
+	
 }
+.playicn{
+    position:absolute;
+	width:45px;
+	height:45px;
+	border-radius:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border:solid 1px orangered;
+	background-color:orangered;
+	color:white;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+	
+/* .vimg i{ */
+	position:absolute;
+	font-size:90px;
+	align-items:center;
+	bottom:40%;
+	right:50%;
+	color:#ed502e;
+	/* } */
 .vconcept{
-	padding:40px 40px;;
+	margin:20px 20px;
 }
 .num1{
 	padding:0 20px;
@@ -234,12 +271,17 @@ margin-bottom:20px;
 margin-left:20px;
 }
 .vconcept h1{
+	padding-left:20px;
+	padding-top:60px;
 	font-weight: 400;
     font-size: 34px;
-    color: #123a6d
+    color: #123a6d;
+	padding-bottom:10px;
 }
 .vconcept p{
-	padding-top:5px;
+	padding-top:10px;
+	padding-left:20px;
+	padding-bottom:10px;
 	color:gray;
 }
 .container2{
@@ -247,10 +289,89 @@ margin-left:20px;
 	margin:0 auto;
 }
 .num1 h3:hover{
-	color:orange;
+	color:orangered;
 }
 
 span{
 	color:red;
 	padding-right:5px;
+}
+#service{
+	padding:60px 0;
+	background-color:#f5f5f540;
+}	
+.serbox{
+	padding:40px 0;
+	background-color:white;
+	border:none;
+	margin-top:20px;
+    width:100%;	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+.sericn{
+	width:65px;
+	height:45px;
+	border-radius:3px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border:solid 1px orangered;
+	background-color:orangered;
+	color:white;
+}
+.serbox:hover{
+	background-color:orangered;
+	color:white;
+	transition:all 0.2s ease;
+}
+.serbox:hover .sericn
+{
+	background-color: white;
+	color:orangered;
+	transition:all 0.2s ease;
+}
+.sercon{
+	padding:0 30px;
+	text-align:center;
+}
+.sercon h2{
+	padding:10px;
+}
+#test{
+	background-color:#80bfd91c;
+	padding:40px;
+}
+.des{
+	padding:60px 20px;
+	background-color:white;
+	position:relative;
+}
+.des h1{
+	padding-left:50px;
+}
+.des h4{
+	color:gray;
+	padding-left:50px;
+}
+.des p{
+	font-size:20px;
+	padding-top:20px;
+	padding-left:50px;
+    color:gray;
+}
+.desimg{
+	position:absolute;
+	top:35px;
+	left:-50px;
+}
+.desimg2{
+	position:absolute;
+	top:60px;
+	left:-30px;
+	}
+.rowcol{
+	justify-content:space-evenly;
 }
