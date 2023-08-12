@@ -1,113 +1,131 @@
 @media(min-width:320px) and (max-width:768px){
-.d-none{
+.d_none{
 	display:none;
 }
 .container{
 	width:100%;
 }
-.col-sm-1{
+.col_sm_1{
 	width:8.33%;
 	padding:0 10px;
 }
-.col-sm-2{
+.col_sm_2{
 	width:16.66%;
 	padding:0 10px;
 }
-.col-sm-3{
+.col_sm_3{
 	width:25%;
 	padding:0 10px;
 }
-.col-sm-4{
+.col_sm_4{
 	width:33.32%;
 	padding:0 10px;
 }
-.col-sm-5{
+.col_sm_5{
 	width:41.65%;
 	padding:0 10px;
 }
-.col-sm-6{
+.col_sm_6{
 	width:50%;
 	padding:0 10px;
 }
-.col-sm-7{
+.col_sm_7{
 	width:58.33%;
 	padding:0 10px;
 }
-.col-sm-8{
+.col_sm_8{
 	width:66.66%;
 	padding:0 10px;
 }
-.col-sm-9{
+.col_sm_9{
 	width:75%;
 	padding:0 10px;
 }
-.col-sm-10{
+.col_sm_10{
 	width:83.33%;
 	padding:0 10px;
 }
-.col-sm-11{
+.col_sm_11{
 	width:91.66%;
 	padding:0 10px;
 }
-.col-sm-12{
+.col_sm_12{
 	width:100%;
 	padding:0 10px;
+}
+.multi22{
+	display:flex;
+	justify-content:end;
 }
 }
 /* @media(min-length:768px){ */
 /* } */
-@media(min-width:768px) and (max-width:999px){
-.col-lm-1{
-width:8.33%;
-padding:0 10px;
-}
-.col-lm-2{
-	width:16.66%;
+@media (min-width:769px) and (max-width:999px){
+	.d_none{
+		display:none;
+	}
+	.col_lm_1{
+	width:8.33%;
 	padding:0 10px;
+	}
+	.multi22{
+		display:flex;
+		justify-content:end;
+	}
+	.col_lm_2{
+		width:16.66%;
+		padding:0 10px;
+	}
+	.col_lm_3{
+		width:25%;
+		padding:0 10px;
+	}
+	.col_lm_4{
+		width:33.32%;
+		padding:0 10px;
+	}
+	.col_lm_5{
+		width:41.65%;
+		padding:0 10px;
+	}
+	.col_lm_6{
+		width:50%;
+		padding:0 10px;
+	}
+	.col_lm_7{
+		width:58.33%;
+		padding:0 10px;
+	}
+	.col_lm_8{
+		width:66.66%;
+		padding:0 10px;
+	}
+	.col_lm_9{
+		width:75%;
+		padding:0 10px;
+	}
+	.col_lm_10{
+		width:83.33%;
+		padding:0 10px;
+	}
+	.col_lm_11{
+		width:91.66%;
+		padding:0 10px;
+	}
+	.col_lm_12{
+		width:100%;
+		padding:0 10px;
+	}
+	.faqres{
+		width:100%;
+		padding:0 10px;
+	}
 }
-.col-lm-3{
-	width:25%;
-	padding:0 10px;
-}
-.col-lm-4{
-	width:33.32%;
-	padding:0 10px;
-}
-.col-lm-5{
-	width:41.65%;
-	padding:0 10px;
-}
-.col-lm-6{
-	width:50%;
-	padding:0 10px;
-}
-.col-lm-7{
-	width:58.33%;
-	padding:0 10px;
-}
-.col-lm-8{
-	width:66.66%;
-	padding:0 10px;
-}
-.col-lm-9{
-	width:75%;
-	padding:0 10px;
-}
-.col-lm-10{
-	width:83.33%;
-	padding:0 10px;
-}
-.col-lm-11{
-	width:91.66%;
-	padding:0 10px;
-}
-.col-lm-12{
-	width:100%;
-	padding:0 10px;
-}
-}
+
+
+
 @media(min-width:999px) {
-	.d-block{
+	.d_block{
 	display:block;
 	}
 } 	
